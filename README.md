@@ -9,7 +9,48 @@ the name $USER.clj.
 
 ## Problems/Topics
 
-#### August 4<sup>th</sup>: Clojure Applications with State - Part 2
+#### December 1<sup>st</sup>: [Datascript (Again)](https://github.com/tonsky/datascript)
+
+This is a follow up to John Conti's initial datascript/datalog talk.
+
+Pull [this repo](https://github.com/markbastian/datascript-playground) to see my demo.
+
+#### November 3<sup>rd</sup>: Emacs, Robots, etc.
+
+John Conti gave us some Emacs and Rx tips. Mark showed his balance bot, but was unable to get the network connection 
+going to show the REPL on the EV3 Brick.
+
+#### October 27<sup>th</sup>: [Datascript](https://github.com/tonsky/datascript)
+
+John Conti will be introducing Datascript, an in-memory (re)implementation of the Datalog engine in the Datomic database.  
+Datascript turns data manipulations into queries, which are declarative and usually closer to the domain model.  
+The result is better agility, fewer bugs and more fun at the expense of some performance. Given the IO bound nature of 
+server programs though, performance is often no concern.
+
+#### October 13<sup>th</sup>: [Datascript](https://github.com/tonsky/datascript)
+
+John Conti will talk to us about reactive programming and the beicon library. In his words:
+
+“Reactive Extensions (usually called Rx) is a streaming event library and specification for several languages. 
+Netflix is a primary user.  I'm going to introduce Rx using the Clojure beicon library.”
+
+#### October 6<sup>th</sup>: [Codingame](https://www.codingame.com/start)
+
+This week for Clojure Club, Jonathan will discuss https://www.codingame.com/start.
+
+#### September 22<sup>nd</sup>: [Quil](http://quil.info/)
+
+Matt Grimm and Mark Bastian will give live demonstrations of the amazing [Quil](http://quil.info/) library. If you want to see reloadable isomorphic code in all its glory along with some cool demos, come on by.
+
+#### September 1<sup>st</sup>: Records, Protocols, and more Component
+
+John Conti will continue with his discussions on the above.
+
+#### August 25<sup>th</sup>: Stuart Sierra's Component Library
+
+John Conti will give a presentation on [component](https://github.com/stuartsierra/component).
+
+#### August 11<sup>th</sup>: Clojure Applications with State - Part 2
 
 Pick a domain model, any domain model, that contains state. Implement a stateful application in your domain. This likely
 will have some sort of UI element. Pick any implementation you want (Swing, web, text, etc.).
@@ -21,6 +62,10 @@ Ideas:
 Things to research if you haven't already:
 * atoms, agents, refs
 * watches
+
+#### August 4<sup>th</sup>: Understanding the REPL
+
+John is going to show us all kinds of ways to use the REPL beyond simply using it as an interactive code editor.
 
 #### July 24<sup>th</sup>: Clojure Applications with State - Part 1
 

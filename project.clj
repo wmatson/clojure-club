@@ -13,6 +13,7 @@
                  [org.clojure/data.xml "0.0.8"]
                  [com.rpl/specter "1.0.1"]
                  [mount "0.1.11"]
+                 [clojure-lanterna "0.9.7"]
                  ;[uncomplicate/neanderthal "0.9.0"]
                  ;[uncomplicate/clojurecl "0.7.1"]
                  [com.novemberain/monger "3.1.0"]
@@ -23,7 +24,8 @@
                  [org.slf4j/slf4j-api "1.7.25"]
                  [org.clojure/tools.trace "0.7.9"]
                  [org.clojure/core.async "0.3.443"]
-                 [clojure-csv/clojure-csv "2.0.1"]]
+                 [clojure-csv/clojure-csv "2.0.1"]
+                 [clj-sockets "0.1.0"]]
 
   :plugins [[lein-cljsbuild "1.1.5" :exclusions [[org.clojure/clojure]]]
             [lein-figwheel "0.5.9"]
